@@ -3,13 +3,11 @@
 
 
 ## Markdown编辑器简介
-一款使用marked和highlight.js,ace,inversify,vue3,font-awesome,ant-design-vue开发的markdown编辑器，除常见markdown语法外，支持快捷输入、图片粘贴、全屏编辑、预览等功能。
+一款使用marked和highlight.js,ace,vue3,font-awesome,ant-design-vue开发的markdown编辑器，除常见markdown语法外，支持快捷输入、图片粘贴、全屏编辑、预览等功能。
 
 使用起来简单方便，只需几行代码，即可在你的页面上引入一个markdown编辑器,完全适配vue3，支持语法高亮。同时项目完全基于ddd的开发思想，解构了视图层和领域层。
 
 编辑器涵盖了常用的markdown编辑器功能,也可根据需求进行深度定制。易于扩展，代码层次分明，更换视图层对核心领域层没有影响，但还有很多值得改进的地方，这个是我在前端ddd领域驱动开发的一种尝试，追求更好的架构一直是我的目标。希望大家多和我交流。本人邮箱 200569525@qq.com，欢迎提建议。
-
-扩展性，为了践行这一设计，TextBus 核心模块只有组织与调度的能力，其它所有的功能都是只是遵循扩展接口的外部函数或类，也就是说，没有这些外部函数或类，TextBus 核心模块就只剩一个空的骨架，完成不了任何事情。
 
 ## 示例
 
